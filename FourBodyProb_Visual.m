@@ -16,10 +16,9 @@
 % k (real scalar, positive) the column of Storage matrix that holds the
 % coordinates of the four bodies that will be plotted.
 
-% Version 1: Created 05/05/2021 Authors:    Harry Watchorn (18467704), 
-%                                           Caoimhe McCann (18337833),             
-%                                           Rachel Naughton (18327193)
-
+% Version 1: Created 05/05/2021 Authors:    Harry Watchorn, 
+%                                           Caoimhe McCann,             
+%                                           Rachel Naughton
 % Error Checking 
 if (~ismatrix(Storage)) || size(Storage,1) < 12 || (~isreal(Storage))
     error('Input matrix Storage must contain only real values and must have a minimum of 12 rows.')
