@@ -13,9 +13,9 @@ function Storage = FourBodyProblem_RK4(vec0,h,N)
 % Storage = a 24xN matrix, contains the position of the planets and the 
 % velocity. 
  
-% Version 1: Created 31/04/2021 Authors: Caoimhe McCann (18337833), 
-%                                        Harry Watchorn (18467704), 
-%                                        Rachel Naughton (18327193)
+% Version 1: Created 31/04/2021 Authors: Caoimhe McCann, 
+%                                        Harry Watchorn, 
+%                                        Rachel Naughton 
  
 % error checking 
 if (~isreal(h)|| ~isscalar(h) || h<=0)
