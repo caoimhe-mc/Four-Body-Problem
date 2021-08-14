@@ -21,9 +21,9 @@ function F = FourBodyProblem_Equations(vec)
 % Earth, Moon, Jupiter, Sun velocities
 % followed by Earth, Moon, Jupiter, Sun accelerations in x,y and then z.
  
-% Version 1: Created 31/04/2021 Authors:  Caoimhe McCann (18337833), 
-%                                         Harry Watchorn (18467704), 
-%                                         Rachel Naughton (18327193)
+% Version 1: Created 31/04/2021 Authors:  Caoimhe McCann, 
+%                                         Harry Watchorn, 
+%                                         Rachel Naughton 
 
 % Error checking   
 if (~isreal(vec) || ~iscolumn(vec))
